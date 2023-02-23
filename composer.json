@@ -1,0 +1,51 @@
+{
+    "name": "oneplugin/one-plugin-pro",
+    "description": "OnePlugin Pro lets the Craft community embed rich contents on their website",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "onepluginpro"
+    ],
+    "support": {
+        "docs": "https://docs.oneplugin.co",
+        "issues": "https://github.com/oneplugin/OnePluginPro/issues"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "OnePlugin",
+            "homepage": "https://oneplugin.co/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "craftcms/cms": "^4.0.0"
+    },
+    "require-dev": {
+      "craftcms/cms": "^4.0.0",
+      "codeception/codeception": "^3.0",
+      "vlucas/phpdotenv": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "oneplugin\\onepluginpro\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "OnePlugin Pro",
+        "handle": "one-plugin-pro",
+        "developer": "OnePlugin",
+        "developerUrl": "https://github.com/oneplugin",
+        "documentationUrl": "https://docs.oneplugin.co",
+        "changelogUrl": "https://raw.githubusercontent.com/oneplugin/OnePluginPro/master/CHANGELOG.md",
+        "components": {
+            "onePluginProService": "oneplugin\\onepluginpro\\services\\OnePluginProService"
+        },
+        "class": "oneplugin\\onepluginpro\\OnePluginPro"
+    }
+}
