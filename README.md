@@ -33,7 +33,7 @@ OnePlugin Pro works on Craft 4.x.
 
 With OnePlugin Pro and one line of code, gain immediate access to: a library of over 1500+ SVGs editable to suit your style guidelines and template requirements, 500+ and counting animated icons. With a range of features that combines the value of multiple plugins, One Plugin is a content managers dream come true.
 
-OnePlugin supports 9 different media types and adding them to your website is super simple.
+OnePlugin supports 3 different media types and adding them to your website is super simple.
 
 OnePlugin adds a custom FieldType to Craft CMS, called OnePlugin Pro. OnePlugin Pro work exactly like regular PlainText or Asset fields, except that they can be configured to render 9 content types including images, videos, animated icons and svgs to name a few.
 
